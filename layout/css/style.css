@@ -1,0 +1,275 @@
+body
+{
+    background-color: #bcbcbc;
+    direction: rtl;
+    text-align: right;
+    
+}
+img{
+    width: 500px;
+    height: 300px ;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+a , a:hover{
+    text-decoration: none;
+}
+
+
+a.facebook:hover{
+    color: #3b5988 !important;
+}
+a.twitter:hover{
+    color: #0084b4 !important;
+}
+a.youtube:hover{
+    color: #FF0000 !important;
+}
+
+
+/*====== header ========*/
+
+
+header .logo a{
+    font-size: 40px;
+    color: #cb0000;
+}
+ header form{
+    padding: 20px 0 20px 40px;
+}
+header form button{
+    position: absolute;
+    top: 20px;
+    left: -8px;
+}
+header .social{
+    margin-top: 20px;
+    text-align: right;
+}
+header .social a{
+    color: #414141;
+    padding-right: 3%;
+}
+header .social a i{
+    font-size: 23px; 
+}
+
+
+/*====== /header ========*/
+/*====== navbar ========*/
+
+
+nav{
+    padding: 0 !important;
+}
+nav .nav-item{
+    padding: 7px 20px;
+    font-size: 20px;
+}
+nav .nav-item:hover{
+    background-color: #cb0000;
+}
+nav .nav-item:hover a{
+    color: #fff !important;
+}
+nav .nav-item.active{
+    background-color: #cb0000;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+nav .nav-item .dropdown-menu{
+    background-color: #212529
+}
+nav .dropdown-menu a{
+    color: #fff;
+}
+nav .nav-item .dropdown-menu a:hover{
+    background-color: #cb0000;
+}
+.collapse:not(.show) {
+    display: block;
+}
+
+/*====== /navbar ========*/
+/*======== line news ========*/
+
+
+.linenews{
+    height: 30px;
+    background-color: #cb0000;
+    padding: 3px 10px;
+    position: relative;
+    
+}
+.linenews .new{
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    -webkit-animation: movelines 30s infinite  linear;
+    animation: movelines 30s infinite  linear;
+    -webkit-transition: all 30s;
+    transition: all 30s;
+}
+
+.linenews:after{
+    position: absolute;
+    content: "";
+    top: 8.5px;
+    left: 0;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent transparent #000 #000;
+    -webkit-transform: skewY(30deg);
+    transform: skewY(30deg);
+}
+.linenews:before{
+    position: absolute;
+    content: "";
+    top: 8.5px;
+    right: 0;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent #000 #000 transparent;
+    -webkit-transform: skewY(-30deg);
+    transform: skewY(-30deg);
+}
+.lines{
+    width: 95%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+@-webkit-keyframes movelines{
+    0%{
+        right: 120%;
+    }
+    100%{
+        right: -200%;
+    }
+}
+
+
+@keyframes movelines{
+    0%{
+        right: 120%;
+    }
+    100%{
+        right: -200%;
+    }
+}
+
+
+/*======== line news ========*/
+/*========= slider ==========*/
+
+
+.carousel-caption{
+    background-color: rgba(0,0,0,.5);
+}
+
+
+/*======= /slider ========*/
+/*========= index =========*/
+
+
+.news-items .news-item{
+    background-color: #fff;
+}
+.news-items .news-item h3{
+    color: #cb0000;
+    padding: 5px 15px;
+    background-color: #353535;
+    margin-bottom: 0;
+}
+.news-items .news-item h3 a{
+    color: #cb0000;
+}
+.news-items .news-item .new-info{
+    border-bottom: 3px solid #bcbcbc;
+}
+.news-items .news-item .new-info a{
+    color: #333;
+}
+.news-items .news-item .new-info a:hover{
+    color: #cb0000;
+}
+.news-items .news-item .new-info h4{
+    padding: 15px 10px;
+}
+.news-items .news-item .more a{
+    color: #cb0000;
+    font-size: 18px;
+}
+.news-items .news-item .more a:hover{
+    color: rgba(200 , 0 ,0 , .6);
+}
+
+
+/*======== /index ========*/
+/*======== category ========*/
+
+.cat-news .cat-item{
+    background-color: #fff;
+}
+.cat-news .cat-item a{
+    color: #333;
+}
+.cat-news .cat-item a:hover{
+    color: #cb0000;
+}
+.cat-news .cat-item h4{
+    padding: 10px 10px 0;
+}
+.cat-news .cat-item p{
+    padding: 15px 10px 20px;
+}
+
+
+/*====== /category ========*/
+/*========= news ========*/
+
+
+.news-data .info h2{
+    color: #cb0000;
+    padding: 20px 0 40px;
+}
+.news-data .info .item{
+    color: #cb0000;
+}
+
+
+
+
+/*======== /news ========*/
+/*====== footer ========*/
+
+footer{
+    color: #fff;
+    background-color: #424242;
+}
+footer .footer-links .footer-logo a{
+    color: #cb0000;
+    font-size: 50px;
+    display: inline-block;
+    padding: 20px;
+}
+footer .footer-links .footer-link ul li{
+    padding: 5px 0;
+}
+footer .footer-links .footer-link ul li:hover a{
+    color: #cb0000;
+}
+footer .footer-links .footer-link ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+/*====== /footer ========*/

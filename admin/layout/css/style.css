@@ -1,0 +1,133 @@
+body
+{
+    background-color: #bcbcbc;
+    direction: rtl;
+    text-align: right;
+}
+a , a:hover{
+    text-decoration: none;
+}
+h1 , h2{
+    color: #cb0000;
+}
+
+a.facebook:hover{
+    color: #3b5988 !important;
+}
+a.twitter:hover{
+    color: #0084b4 !important;
+}
+a.youtube:hover{
+    color: #FF0000 !important;
+}
+
+
+
+
+/*====== header ========*/
+
+header .logo a{
+    font-size: 40px;
+    color: #cb0000;
+}
+header .social{
+    margin-top: 25px;
+    text-align: right;
+}
+header .social a{
+    color: #414141;
+    padding-right: 3%;
+}
+header .social a:hover{
+    color: #cb0000;
+}
+header .social a i{
+    font-size: 23px; 
+}
+
+
+/*====== /header ========*/
+
+
+/*====== navbar ========*/
+
+nav{
+    padding: 0 !important;
+}
+nav .nav-item{
+    padding: 7px 20px;
+    font-size: 20px;
+}
+nav .nav-item:hover{
+    background-color: #cb0000;
+}
+nav .nav-item:hover a{
+    color: #fff !important;
+}
+nav .nav-item.active{
+    background-color: #cb0000;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+.collapse:not(.show) {
+    display: block;
+}
+
+
+/*====== /navbar ========*/
+
+
+
+/*======= index ========*/
+
+.form-login input{
+    background-color: #fff !important;
+    padding: 15px;
+    border: none;
+}
+.form-login input::-webkit-input-placeholder{
+    color: #bbb;
+}
+.form-login input:-ms-input-placeholder{
+    color: #bbb;
+}
+.form-login input::placeholder{
+    color: #bbb;
+}
+
+/*======= /index ========*/
+/*======= dashboard ========*/
+
+.choose a.select{
+    border-right: 10px solid #313370 !important;
+}
+
+
+/*======= /dashboard ========*/
+/*====== footer ========*/
+
+footer{
+    color: #fff;
+    background-color: #424242; 
+}
+footer .footer-links .footer-logo a{
+    color: #cb0000;
+    font-size: 50px;
+    padding: 20px;
+}
+footer .footer-links .footer-link ul li{
+    padding: 5px 0;
+}
+footer .footer-links .footer-link ul li:hover a{
+    color: #cb0000;
+}
+footer .footer-links .footer-link ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+footer nav .social a:hover{
+    color: #cb0000 !important;
+}
+
+
+/*====== /footer ========*/
